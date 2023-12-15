@@ -153,9 +153,11 @@
   <ItemGroup>
     <ClCompile Include="C++CodeWars.cpp" />
     <ClCompile Include="Fracts.cpp" />
+    <ClCompile Include="Scramble.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fracts.h" />
+    <ClInclude Include="Scramble.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
