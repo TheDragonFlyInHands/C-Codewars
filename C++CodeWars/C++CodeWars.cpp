@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
-
+#include "Fracts.h"
+#include <vector>
+using namespace std;
 int main()
 {
-    
+	vector<vector<unsigned long long>> vec = { {1,2},{1,3},{1,4} };
+	cout<<Kata5::convertFrac(vec);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

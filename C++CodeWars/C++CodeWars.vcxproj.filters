@@ -25,4 +25,9 @@
       <Filter>Исходные файлы\Kata5</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fracts.h">
+      <Filter>Исходные файлы\Kata5</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
