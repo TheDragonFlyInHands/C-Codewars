@@ -2,21 +2,13 @@
 //
 
 #include <iostream>
-#include "Scramble.h"
+#include "UINT32toIP.h"
 #include <vector>
 using namespace std;
+
 int main()
 {
-	cout << scramble("rkqodlw", "world") << "  " << true << endl;
-	cout<<scramble("cedewaraaossoqqyt","codewars") << "  " <<true << endl;
-	cout<<scramble("katas", "steak") << "  " <<false << endl;
-	cout<<scramble("scriptjavx", "javascript") << "  " <<false << endl;
-	cout<<scramble("scriptingjava", "javascript") << "  " <<true << endl;
-	cout<<scramble("scriptsjava", "javascript") << "  " <<true << endl;
-	cout<<scramble("javscripts", "javascript") << "  " <<false << endl;
-	cout<<scramble("aabbcamaomsccdd", "commas") << "  " <<true << endl;
-	cout<<scramble("commas", "commas") << "  " <<true << endl;
-	cout<<scramble("sammoc", "commas") << "  " <<true << endl;
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

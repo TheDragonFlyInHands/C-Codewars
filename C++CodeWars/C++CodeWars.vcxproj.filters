@@ -27,12 +27,18 @@
     <ClCompile Include="Scramble.cpp">
       <Filter>Исходные файлы\Kata5</Filter>
     </ClCompile>
+    <ClCompile Include="UINT32toIP.cpp">
+      <Filter>Исходные файлы\Kata5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fracts.h">
       <Filter>Исходные файлы\Kata5</Filter>
     </ClInclude>
     <ClInclude Include="Scramble.h">
+      <Filter>Исходные файлы\Kata5</Filter>
+    </ClInclude>
+    <ClInclude Include="UINT32toIP.h">
       <Filter>Исходные файлы\Kata5</Filter>
     </ClInclude>
   </ItemGroup>
