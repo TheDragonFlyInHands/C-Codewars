@@ -157,6 +157,7 @@
     <ClInclude Include="Kata5\Scramble.h" />
     <ClInclude Include="Kata5\UINT32toIP.h" />
     <ClInclude Include="Kata5\Zeros.h" />
+    <ClInclude Include="LazyRepeater.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C++CodeWars.cpp" />

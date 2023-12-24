@@ -2,15 +2,18 @@
 //
 
 #include <iostream>
-#include "CaesarCipher.h"
+#include "LazyRepeater.h"
 #include <vector>
 #include <string>
 using namespace std;
 
 int main()
 {
-	string a= CaesarCipher::movingShift("I should have known that you would have a perfect answer for me!!!", 1);
-	cout << a;
+	auto s = makeLooper("abc");
+	for (int i = 0; i < 6; i++)
+	{
+		cout << s() << endl;
+	}
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
