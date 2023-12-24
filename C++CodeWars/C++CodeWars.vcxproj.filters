@@ -14,13 +14,27 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Исходные файлы\Kata5">
-      <UniqueIdentifier>{64d177c6-49d5-4778-afff-92f82ec7d6c2}</UniqueIdentifier>
+      <UniqueIdentifier>{e691cd15-89db-45ab-be4a-85a51bfa3748}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++CodeWars.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
+    <ClInclude Include="Kata5\Fracts.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata5\Scramble.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata5\UINT32toIP.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Kata5\Zeros.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CaesarCipher.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="Fracts.cpp">
       <Filter>Исходные файлы\Kata5</Filter>
     </ClCompile>
@@ -30,16 +44,14 @@
     <ClCompile Include="UINT32toIP.cpp">
       <Filter>Исходные файлы\Kata5</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Fracts.h">
+    <ClCompile Include="Zeros.cpp">
       <Filter>Исходные файлы\Kata5</Filter>
-    </ClInclude>
-    <ClInclude Include="Scramble.h">
+    </ClCompile>
+    <ClCompile Include="C++CodeWars.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CaesarCipher.cpp">
       <Filter>Исходные файлы\Kata5</Filter>
-    </ClInclude>
-    <ClInclude Include="UINT32toIP.h">
-      <Filter>Исходные файлы\Kata5</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
 </Project>

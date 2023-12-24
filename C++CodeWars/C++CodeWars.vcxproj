@@ -152,15 +152,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CaesarCipher.h" />
+    <ClInclude Include="Kata5\Fracts.h" />
+    <ClInclude Include="Kata5\Scramble.h" />
+    <ClInclude Include="Kata5\UINT32toIP.h" />
+    <ClInclude Include="Kata5\Zeros.h" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="C++CodeWars.cpp" />
+    <ClCompile Include="CaesarCipher.cpp" />
     <ClCompile Include="Fracts.cpp" />
     <ClCompile Include="Scramble.cpp" />
     <ClCompile Include="UINT32toIP.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Fracts.h" />
-    <ClInclude Include="Scramble.h" />
-    <ClInclude Include="UINT32toIP.h" />
+    <ClCompile Include="Zeros.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

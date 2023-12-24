@@ -2,13 +2,15 @@
 //
 
 #include <iostream>
-#include "UINT32toIP.h"
+#include "CaesarCipher.h"
 #include <vector>
+#include <string>
 using namespace std;
 
 int main()
 {
-
+	string a= CaesarCipher::movingShift("I should have known that you would have a perfect answer for me!!!", 1);
+	cout << a;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
