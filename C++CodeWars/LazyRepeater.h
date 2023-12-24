@@ -1,6 +1,5 @@
 #pragma once
 #include <string>
-auto makeLooper(const std::string& str);
 class LazyRepeater {
 	std::string str;
 	int pos{ 0 };
